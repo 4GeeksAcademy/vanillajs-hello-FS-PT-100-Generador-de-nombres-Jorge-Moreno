@@ -1,5 +1,53 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#generateBtn {
+    background-color: #00796b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#generateBtn:hover {
+    background-color: #004d40;
+    transform: scale(1.05);
+}
+
+#domainList {
+    list-style: none;
+    padding: 0;
+}
+
+#domainList li {
+    background-color: #fff;
+    margin: 10px auto;
+    padding: 15px 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    color: #555;
+    transition: all 0.3s ease;
+}
+
+#domainList li:hover {
+    background-color: #e0f7fa;
+    color: #00796b;
+    transform: scale(1.05);
 }
